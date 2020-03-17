@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content">
+    <FrameLayout
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/framlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:id="@+id/imgDanhSachCacAlbum"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="180dp"
+                android:layout_height="180dp" />
+    </FrameLayout>
+    <TextView
+            android:id="@+id/txtTenDanhSachAlbum"
+            android:text="Demo thoi nhe"
+            app:layout_constraintTop_toBottomOf="@id/framlayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:maxWidth="200dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+            app:layout_constraintTop_toBottomOf="@id/txtTenDanhSachAlbum"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/tenCaSiAlbum"
+            android:text="various artists"
+            android:textSize="12sp"
+            android:maxWidth="200dp"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <ImageView
+            app:layout_constraintRight_toRightOf="@id/framlayout"
+            app:layout_constraintBottom_toBottomOf="@id/framlayout"
+            android:layout_margin="20sp"
+            android:src="@drawable/ic_play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

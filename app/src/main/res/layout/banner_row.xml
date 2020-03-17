@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:orientation="vertical" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/imgBackgroudBanner"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:scaleType="fitXY"
+            android:background="@drawable/custom_banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+    <RelativeLayout
+        android:id="@+id/relative"
+        app:layout_constraintBottom_toBottomOf="@id/imgBackgroudBanner"
+        android:layout_alignBottom="@id/imgBackgroudBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgViewPager"
+            android:padding="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:id="@+id/titlebannerBaihat"
+            android:text="Vu Bao Yen"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/imgViewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:gravity="left"
+            android:layout_below="@id/titlebannerBaihat"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/imgViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtnoiDung"
+                android:text="Giá trị của con người bắt đầu từ đồi chân họ đi"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:maxLines="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

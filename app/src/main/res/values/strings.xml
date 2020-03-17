@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppNgheNhac</string>
+    <string name="seeMoreListView">Xem Thêm PlayList</string>
+    <string name="titePlayList">Giai Điệu Cảm Xúc ></string>
+    <string name="titleMorePlayList">Xem thêm playlist</string>
+    <string name="titleChuDeVaTheLoai">CHỦ ĐỀ VÀ THỂ LOẠI ></string>
+    <string name="xemThem">Xem Thêm</string>
+    <string name="titleAbumHot">ALBUM HOT ></string>
+    <string name="dsbaiHat">Bài Hát Được Yêu Thích ></string>
+    <string name="title_activity_danh_sach_cac_play_list">DanhSachCacPlayList</string>
+    <string name="title_activity_dsthe_loai_acitivity">DSTheLoaiAcitivity</string>
+    <string name="title_activity_danh_sach_the_loai">DanhSachTheLoai</string>
+    <string name="titleTheLoai">THỂ LOẠI ></string>
+    <string name="title_activity_danh_sach_album">DanhSachAlbum</string>
+    <string name="tinhNangChuaPhatTrien">Tính Năng này chưa được phát triển</string>
+</resources>
